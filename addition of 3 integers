@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<iostream>
+using namespace std;
+int main()
+{
+int n;
+int s;
+int t;
+cin>>n;
+cin>>s;
+cin>>t;
+cout<<n+s+t;
+}
