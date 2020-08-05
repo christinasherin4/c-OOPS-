@@ -1,0 +1,24 @@
+#include<stdio.h>
+#include <iostream>
+#include<iomanip>
+using namespace std;
+
+int main()
+ {
+    int n;
+    long  e;
+    char a;
+    float d;
+    double f;
+    cin>>n;
+    cout<<n<<"\n";
+    cin>>e;
+    cout<<e<<"\n";
+    cin>>a;
+    cout<<a<<"\n";
+    cin>>d;
+    cout<<fixed<<setprecision(3)<<d<<endl;
+    cin>>f;
+    cout<<setprecision(9)<<f;
+return 0;
+}
